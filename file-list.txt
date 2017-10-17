@@ -1,0 +1,22 @@
+ - FileList
+    FileListItem
+      FileIcon
+      FileName
+      CommitMessage
+      Time
+
+What data does each component need?
+  FileList : one prop called files, an array of FileList
+    objects
+
+  FileListItem : 1 prop called file, an object that has
+    the following -> name and type of file, commit message
+    , last modified time
+
+  FileName : takes a file object with name
+
+  FileIcon : takes a file object, render icon accordingly
+
+  CommitMessage : take a commit object with a message prop
+
+  Time : takes a str
